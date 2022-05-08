@@ -1,0 +1,86 @@
+body {
+    height: auto;
+    margin: 0%;
+}
+
+header>h1 {
+
+    background-color: rgb(87, 80, 80);
+    margin: 0%;
+    padding: 10px;
+    text-align: right;
+}
+
+body {
+    border: 2px solid steelblue;
+    background-image: url("ani2.jpg");
+    animation-duration: 4s;
+}
+
+footer>h1 {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 8px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+
+}
+
+#navigate {
+    position: sticky;
+    top: 0%;
+
+}
+
+.menu {
+    margin: 0%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.menu li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu li {
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu li:hover {
+    background-color: rgb(0, 0, 0, 0.7)
+}
+
+.menu li:nth-child(2):hover #dropdown {
+    display: block;
+}
+
+.menu li:nth-child(3):hover #dropdown {
+    display: block;
+}
+
+#dropdown {
+    position: absolute;
+    width: auto;
+    max-width: 100px;
+    display: none;
+    background-color: whitesmoke;
+    padding: 0%;
+    top: 42.5px;
+
+}
+
+#dropdown li {
+    display: block;
+    background-color: rgba(230, 222, 222, 0.7);
+
+}
+
+#dropdown li a {
+    color: rgb(44, 11, 189);
+    font-size: 16px;
+}

@@ -1,0 +1,89 @@
+<html>
+<head>
+  <title>RegistrationForm</title>
+	<link rel="stylesheet" type="text/css" href="Form.css">
+</head>
+<div class="wrapper">
+    <div class="title">
+      Registration Form
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label>First Name</label>
+          <input type="text" class="input">
+       </div>  
+       <div class="inputfield">
+        <label>patient id if exists</label>
+        <input type="text" class="input">
+     </div>  
+     <div class="inputfield">
+        <label>Contact Number</label>
+        <input type="text" class="input">
+     </div> 
+       <div class="inputfield">
+        <label>Email Address</label>
+        <input type="text" class="input">
+     </div> 
+      <div class="inputfield">
+        <label>Address</label>
+        <textarea class="textarea"></textarea>
+     </div> 
+     <div class="inputfield">
+        <label>Postal Code</label>
+        <input type="text" class="input">
+     </div>
+    <div class="inputfield">
+        <label>House number</label>
+        <input type="text" class="input">
+     </div> 
+      <div class="inputfield">
+          <label>choose the Test Type</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Select</option>
+              <option value="male">CBC</option>
+              <option value="female">Complete Urine</option>
+              <option value="male">Lipid Profile</option>
+              <option value="female">hyroid Stimulating Hormone(TSH)</option>
+              <option value="female">Glucose</option>
+            </select>
+          </div>
+       </div> 
+
+       <div class="inputfield">
+        <label>Do you want hard copy of a report system</label>
+        <div class="custom_select">
+          <select>
+            <option value="">Select</option>
+            <option value="male">Yes</option>
+            <option value="female">No</option>
+          </select>
+        </div>
+     </div>
+
+     
+     <div class="inputfield">
+        <label>Select your comfortable date and time</label>
+        <div class="custom_select">
+          <select>
+            <option value="">Select</option>
+            <option value="Date">Date</option>
+            <option value="Time">Time</option>
+          </select>
+        </div>
+     </div>
+        <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>Agreed to terms and conditions</p>
+       </div> 
+       <div class="inputfield">
+        <input type="Reset" value="Reset" class="btn">
+      </div>
+      <div class="inputfield">
+        <input type="submit" value="Register" class="btn">
+      </div>
+    </div>
+</div>
